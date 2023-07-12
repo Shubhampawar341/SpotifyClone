@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No copyright sounds</h1>
+            <div>
+                <div class="songitemContainer">
+
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songname">Let Me Love you
+                        </span>
+                        <span class="songlistplay"><span class="time"> 03:30 <i id="0" class="fa-regular smallplay fa-circle-play" ></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songname">Bones
+                        </span>
+                        <span class="songlistplay"><span class="time"> 02:30 <i id="1" class="fa-regular smallplay fa-circle-play" ></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songname">Wajah
+                        </span>
+                        <span class="songlistplay"><span class="time"> 01:30 <i id="2" class="fa-regular smallplay fa-circle-play" ></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songname">Dead Inside
+                        </span>
+                        <span class="songlistplay"><span class="time"> 01:25 <i id="3" class="fa-regular smallplay fa-circle-play" ></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songname">Closer
+                        </span>
+                        <span class="songlistplay"><span class="time"> 02:10 <i id="4" class="fa-regular smallplay fa-circle-play" ></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songname">Safe
+                        </span>
+                        <span class="songlistplay"><span class="time"> 01:10 <i id="5" class="fa-regular smallplay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1">
+                        <span class="songname">SuperHero
+                        </span>
+                        <span class="songlistplay"><span class="time"> 02:45 <i id="6" class="fa-regular smallplay fa-circle-play"></i></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" class="progress" id="myProgressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-step-backward" id="previous"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x  fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <span id="mastersongname"></span> <img src="playing.gif" id="gif" alt="">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/66ce13ba26.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
